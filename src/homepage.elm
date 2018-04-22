@@ -20,9 +20,8 @@ main : Html msg
 main =
     div [ style [ ( "margin", "20px" ) ] ]
         [ h1 [] [ text "hello" ]
-        , span [] [ text "this is the homepage of maarten schumacher, artist" ]
-        , br [] []
-        , span [] [ text "sometimes i make" ]
+        , p [] [ span [] [ text "this is the homepage of maarten schumacher, artist" ] ]
+        , p [] [ span [] [ text "sometimes i make" ] ]
         , ul [] <| List.map artformView artforms
         ]
 
