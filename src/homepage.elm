@@ -48,7 +48,8 @@ artforms : List Artform
 artforms =
     [ { name = "music"
       , links =
-            [ { href = "https://www.youtube.com/watch?v=K-PKNj23OVE", text = "short piece for harp" }
+            [ { href = "https://www.youtube.com/watch?v=feoyWMB9whw", text = "requiem" }
+            , { href = "https://www.youtube.com/watch?v=K-PKNj23OVE", text = "short piece for harp" }
             , { href = "https://www.youtube.com/watch?v=PBU7hz5CBLI", text = "disciple, sacrifice, and community spirit" }
             ]
       }
